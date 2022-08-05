@@ -1,0 +1,55 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+.container-fluid{
+    background-color: none;
+  }
+
+@include media-breakpoint-only(xs) { 
+   body{
+    background-color: red;
+   }
+
+ }
+@include media-breakpoint-only(sm) { 
+   body{
+    background-color: orange;
+   }
+
+ }
+@include media-breakpoint-only(md) { 
+   body{
+    background-color: yellow;
+   } 
+ }
+@include media-breakpoint-only(lg) { 
+    body{
+        background-color: green;
+    }
+
+ }
+@include media-breakpoint-only(xl) { 
+    body{
+        background-color: blue;
+    }
+
+ }
+@include media-breakpoint-only(xxl) { 
+    body{
+        background-color: violet;
+    }
+
+ }

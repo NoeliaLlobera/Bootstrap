@@ -10926,32 +10926,32 @@ textarea.form-control-lg {
   background-color: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 249.98px) {
   body {
     background-color: red;
   }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 250px) and (max-width: 499.98px) {
   body {
     background-color: orange;
   }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 500px) and (max-width: 749.98px) {
   body {
     background-color: yellow;
   }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 750px) and (max-width: 999.98px) {
   body {
     background-color: green;
   }
 }
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+@media (min-width: 1000px) and (max-width: 1249.98px) {
   body {
     background-color: blue;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1250px) {
   body {
     background-color: violet;
   }
